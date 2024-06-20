@@ -1,19 +1,4 @@
-.fundo2-icon {
-    position: absolute;
-    right: 0px;
-    bottom: 0px;
-    width: 299px;
-    height: 248px;
-    object-fit: cover;
-}
-.fundo1-icon {
-    position: absolute;
-    right: 11px;
-    bottom: 6px;
-    width: 277px;
-    height: 206px;
-    object-fit: cover;
-}
+
 .saldo {
     position: absolute;
     right: 98px;
@@ -298,7 +283,7 @@
     height: 35px;
     color: #b6bbcf;
 }
-.partida1 {
+.partidas {
     display: flex;
     right: 20px;
     background-color: rgba(0, 0, 0, 0);
@@ -306,21 +291,23 @@
     height: 15px;
     color: #b6bbcf;
 }
-.partida2 {
+.partidas {
     display: flex;
     right: 20px;
     background-color: rgba(0, 0, 0, 0);
     width: 379px;
-    height: 15px;
+    height: 25px;
     color: #b6bbcf;
 }
 .times {
+    display: flex;
+    flex-direction: column;
     position: absolute;
+    top:45px;
     right: 13px;
-    bottom: 149px;
     background-color: rgba(0, 0, 0, 0);
     width: 275px;
-    height: 53px;
+    height: 353px;
 }
 .pontos4 {
     position: absolute;
@@ -378,16 +365,7 @@
     align-items: center;
     width: 68px;
 }
-.grupo-a {
-    position: absolute;
-    right: 209px;
-    bottom: 7px;
-    font-size: 14.5px;
-    color: #d9dbe6;
-    display: flex;
-    align-items: center;
-    width: 65px;
-}
+
 .cabecalho {
     position: absolute;
     right: 0px;
@@ -421,12 +399,11 @@
 }
 .modelo-grupo {
     width: 300px;
-    height: 100%;
+    height: 350px;
     position: absolute;
     top: 77px;
     left: 0px;
-    background-color: rgba(0, 0, 0, 0);
-    height: 250px;
+    background-color: blue;
     overflow: hidden;
     font-size: 12px;
     color: #dee0e9;
